@@ -76,5 +76,7 @@ def find_empty(bo):
             if bo[i][j] == 0:
                 return (i, j)  # row,col
 
-
+print_board(board)
+solve(board)
+print("___________________")
 print_board(board)
